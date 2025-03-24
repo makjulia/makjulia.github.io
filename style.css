@@ -1,0 +1,172 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+.head {
+    background-color: #007765;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    top: 0;  
+    z-index: 100;  
+    width: 100%; 
+  }
+.navigation {
+    float: right;
+}
+.navigation li {
+    display: inline-block; 
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 22px;
+}
+.main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url('img/image.png');
+    background-size: cover;
+    background-position: center center;
+  }
+  .main_message {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+  }
+
+/*Секция 2 - The Problem*/
+.section_2 {
+  background-color: rgba(238, 238, 238, 1); 
+  padding-top: 55px;
+  padding-bottom: 95px;
+  }
+  .head_message {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 64px;
+    text-align: center;
+    color:  #007765;
+    line-height: 75px;
+  }
+  .main_text {
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 32px; 
+  line-height: 37px;
+}
+.span {
+  font-weight: 700;
+}
+
+/*Секция 3 - Hero*/
+  .section_3 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('img/hero.png');
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .hero_message {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /*Секция 4 - Introducing PiedPiperCoin*/
+  .section_4 {
+    background-color: rgba(255, 255, 255, 1); 
+    padding-top: 48px;
+    padding-bottom: 92px;
+  }
+
+  .text_section_4 {
+    font-family: Roboto, sans-serif;  
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .logo {
+    float: left; 
+    padding-right: 48px; 
+  }
+
+  /*Секция 5 - The Team*/
+  .section_5 {
+    background-color:rgba(238, 238, 238, 1);   
+    padding-top: 48px;
+    padding-bottom: 94px;
+  }
+
+  .img {
+    width: 350px; 
+    height: 283px; 
+    text-align: center; 
+    display: flex; 
+    flex-flow: column wrap;
+    align-items: center; 
+    padding-bottom: 55px;
+  }
+
+  .name {
+    font-family: Roboto, sans-serif; 
+    color: rgba(0, 119, 101, 1);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .em {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .team {
+    padding-top: 58px; 
+  }
+
+  .figure {
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .footer {
+    background-color:rgba(51, 51, 51, 1);   
+    padding-top: 50px;
+    height: 90px;
+    text-align: center; 
+  }
+
+  .text {
+    font-family: Roboto, sans-serif;  
+    font-weight: 500;
+    height: 64;
+    width: 540;
+    margin: 0 auto; 
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+  }
